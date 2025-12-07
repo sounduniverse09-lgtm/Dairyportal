@@ -1,5 +1,5 @@
 const products = [
-    { id: 1, name: "Milk (1L)", price: 50, image: "images/milk.jpg" },
+    { id: 1, name: "Milk (1L)", price: 50, image: "Milk.jpg" },
     { id: 2, name: "Curd (500g)", price: 40, image: "images/curd.jpg" },
     { id: 3, name: "Paneer (250g)", price: 80, image: "images/paneer.jpg" },
     { id: 4, name: "Butter (100g)", price: 60, image: "images/butter.jpg" }
@@ -31,3 +31,4 @@ function addToCart(id) {
 
 // Initialize
 loadProducts();
+
